@@ -112,7 +112,6 @@
                     
                     <div class="mt-10 flex items-center gap-4 text-sm text-gray-500 font-medium">
                         <div class="flex -space-x-2">
-                            <!-- Placeholder for user avatars -->
                             <div class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white flex items-center justify-center text-xs">A</div>
                             <div class="w-8 h-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center text-xs">B</div>
                             <div class="w-8 h-8 rounded-full bg-gray-400 border-2 border-white flex items-center justify-center text-xs">C</div>
@@ -122,9 +121,9 @@
                 </div>
                 
                 <div class="relative lg:ml-auto">
-                    <!-- Placeholder Image - Using Unsplash nature/fresh concept -->
+                    <!-- Fixed Img Tag Here -->
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform lg:rotate-2 hover:rotate-0 transition duration-500">
-                        <img src="https://image2url.com/r2/default/images/1775468302308-bc685186-2042-416b-a705-1e33a6917da6.jpg" alt="image" /> alt="Daun Segar dan Botol Spray" class="w-full h-auto object-cover md:h-[500px]">
+                        <img src="https://image2url.com/r2/default/images/1775468302308-bc685186-2042-416b-a705-1e33a6917da6.jpg" alt="Daun Segar dan Botol Spray" class="w-full h-auto object-cover md:h-[500px]">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                         <div class="absolute bottom-6 left-6 right-6">
                             <div class="bg-white/90 backdrop-blur rounded-xl p-4 shadow-lg">
@@ -204,14 +203,14 @@
         </div>
     </section>
 
-    <!-- Kandungan Section (Image Left, Text Right) -->
+    <!-- Kandungan Section -->
     <section id="kandungan" class="py-20 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <!-- Image side -->
                 <div class="w-full lg:w-1/2 relative">
                     <div class="absolute -inset-4 bg-brand-100 rounded-[3rem] transform -rotate-3 -z-10"></div>
-                    <img src="produk-spray.jpg" alt="Versasirsa Spray" class="w-full h-auto object-cover md:h-[500px]">
+                    <img src="https://images.unsplash.com/photo-1608248593842-881c911855b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Versasirsa Spray" class="w-full h-auto object-cover rounded-2xl shadow-lg md:h-[500px]">
                     <!-- Badge -->
                     <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl max-w-xs">
                         <div class="flex items-center gap-4 mb-2">
@@ -254,7 +253,7 @@
         </div>
     </section>
 
-    <!-- Team / About Section -->
+    <!-- Team / About Section (FIXED LAYOUT) -->
     <section id="tentang" class="py-20 bg-brand-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
@@ -263,58 +262,49 @@
                 <p class="text-brand-100 text-lg">Sebuah proyek dedikasi dari mahasiswa Fakultas Ekonomika dan Bisnis, Universitas Negeri Semarang untuk P2MW 2026.</p>
             </div>
 
+            <!-- Fixed Grid Container -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
+                
                 <!-- Team Member 1 -->
-               <img 
-  src="https://image2url.com/r2/default/images/1775469673460-35c1926c-a21a-4198-865f-877e2ff30466.png" 
-  alt="Bagas Permana" 
-  class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border border-white/20"
->
+                <div class="text-center group cursor-pointer">
+                    <img src="https://image2url.com/r2/default/images/1775469673460-35c1926c-a21a-4198-865f-877e2ff30466.png" alt="Bagas Permana" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border-2 border-white/20 group-hover:border-white group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    <h4 class="font-bold text-lg">Bagas Permana</h4>
+                    <p class="text-brand-200 text-sm">CEO</p>
+                </div>
 
-<h4 class="font-bold text-lg">Bagas Permana</h4>
-<p class="text-brand-200 text-sm">Ketua Pengusul</p>
->
-<div class="text-center">
-  <img 
-    src="https://image2url.com/r2/default/images/1775471119611-220e521c-7608-4e53-970a-e09dbf3513c4.png" 
-    alt="Elnov Sakha" 
-    class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border border-white/20"
-  >
-  <h4 class="font-bold text-lg">Elnov Sakha</h4>
-  <p class="text-brand-200 text-sm">CFO</p>
-</div>
+                <!-- Team Member 2 -->
+                <div class="text-center group cursor-pointer">
+                    <img src="https://image2url.com/r2/default/images/1775471119611-220e521c-7608-4e53-970a-e09dbf3513c4.png" alt="Elnov Sakha" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border-2 border-white/20 group-hover:border-white group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    <h4 class="font-bold text-lg">Elnov Sakha</h4>
+                    <p class="text-brand-200 text-sm">CFO</p>
+                </div>
 
-<div class="text-center">
-  <img 
-    src="https://image2url.com/r2/default/images/1775470672142-5245d63f-34ac-439e-a3d0-d87199b12670.png" 
-    alt="Afifa Al Afida" 
-    class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border border-white/20"
-  >
-  <h4 class="font-bold text-lg">Afifa Al Afida</h4>
-  <p class="text-brand-200 text-sm">CMO</p>
-</div>
+                <!-- Team Member 3 -->
+                <div class="text-center group cursor-pointer">
+                    <img src="https://image2url.com/r2/default/images/1775470672142-5245d63f-34ac-439e-a3d0-d87199b12670.png" alt="Afifa Al Afida" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border-2 border-white/20 group-hover:border-white group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    <h4 class="font-bold text-lg">Afifa Al Afida</h4>
+                    <p class="text-brand-200 text-sm">CMO</p>
+                </div>
 
-<div class="text-center">
-  <img 
-    src="https://image2url.com/r2/default/images/1775471041995-fcd0618a-7886-428f-97f0-0aa165beea17.png" 
-    alt="Bayu Ardiansyah" 
-    class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border border-white/20"
-  >
-  <h4 class="font-bold text-lg">Bayu Ardiansyah</h4>
-  <p class="text-brand-200 text-sm">CTO</p>
-</div>
+                <!-- Team Member 4 -->
+                <div class="text-center group cursor-pointer">
+                    <img src="https://image2url.com/r2/default/images/1775471041995-fcd0618a-7886-428f-97f0-0aa165beea17.png" alt="Bayu Ardiansyah" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border-2 border-white/20 group-hover:border-white group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    <h4 class="font-bold text-lg">Bayu Ardiansyah</h4>
+                    <p class="text-brand-200 text-sm">CTO</p>
+                </div>
 
-<div class="text-center">
-  <img 
-    src="https://image2url.com/r2/default/images/1775471219992-8f6a6c5d-952e-410a-bc59-c11c07aeac73.png" 
-    alt="Raditya Candra" 
-    class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border border-white/20"
-  >
-  <h4 class="font-bold text-lg">Raditya Candra</h4>
-  <p class="text-brand-200 text-sm">CPO</p>
-</div>
+                <!-- Team Member 5 -->
+                <div class="text-center group cursor-pointer">
+                    <img src="https://image2url.com/r2/default/images/1775471219992-8f6a6c5d-952e-410a-bc59-c11c07aeac73.png" alt="Raditya Candra" class="w-24 h-24 mx-auto rounded-full object-cover mb-4 border-2 border-white/20 group-hover:border-white group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    <h4 class="font-bold text-lg">Raditya Candra</h4>
+                    <p class="text-brand-200 text-sm">CPO</p>
+                </div>
 
-    <!-- CTA Section -->
+            </div> <!-- End of Grid -->
+        </div> <!-- End of Container -->
+    </section> <!-- End of Team Section -->
+
+    <!-- CTA Section (FIXED WA BUTTON) -->
     <section id="pesan" class="py-24 relative overflow-hidden bg-brand-600">
         <!-- Abstract BG -->
         <div class="absolute inset-0 opacity-10">
@@ -331,12 +321,14 @@
         <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
             <h2 class="text-4xl md:text-5xl font-bold mb-6">Siap Tampil Percaya Diri dengan Napas Segar?</h2>
             <p class="text-xl text-brand-100 mb-10 max-w-2xl mx-auto">Tinggalkan kekhawatiran bau mulut. Bawa Versasirsa di saku Anda dan rasakan manfaat ekstrak daun sirsak kapanpun, dimanapun.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://wa.me/6282241904086" target="_blank" class="bg-white text-brand-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
-                    <svg class="w-6 h-6 text-green-500" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            
+            <!-- Fixed Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-5">
+                <a href="https://wa.me/6282241904086" target="_blank" class="w-full sm:w-auto bg-white text-green-700 px-8 py-4 rounded-full font-bold text-lg hover:bg-green-50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
                     Pesan via WhatsApp
                 </a>
-                <a href="#" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all duration-300">
+                <a href="#" class="w-full sm:w-auto bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all duration-300">
                     Beli di E-Commerce
                 </a>
             </div>
@@ -374,7 +366,7 @@
                     <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Kontak</h4>
                     <ul class="space-y-2 text-sm">
                         <li>📞 +62 822-9881-6049 (Afifa)</li>
-                        <li>✉️ bagasspermanaa@students.unnes.ac.id</li>
+                        <li>✉️ afifalfda@students.unnes.ac.id</li>
                     </ul>
                 </div>
             </div>
